@@ -1,0 +1,91 @@
+.grd-container{
+    display: grid;
+    height: 90vh;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "grd-one grd-one grd-two grd-three" "grd-four grd-five grd-six grd-seven" "grd-eight grd-eight grd-nine grd-ten" "grd-eight grd-eight grd-elevn grd-twelve" "grd-tharteen grd-tharteen grd-tharteen grd-fourteen";
+
+}
+.grd-one{
+    grid-area: grd-one;
+    background-color: #FC6057;
+    border: 2px solid black;
+}
+.grd-two{
+    grid-area: grd-two;
+    background-color: #01A787;
+    border: 2px solid black;
+}
+.grd-three{
+    grid-area: grd-three;
+    background-color: #FDA061;
+    border: 2px solid black;
+}
+.grd-four{
+    grid-area: grd-four;
+    background-color: #FD825C;
+    border: 2px solid black;
+}
+.grd-five{
+    grid-area: grd-five;
+    background-color: #01A787;
+    border: 2px solid black;
+}
+.grd-six{
+    grid-area: grd-six;
+    background-color: #1BC1A1;
+    border: 2px solid black;
+}
+.grd-seven{
+    grid-area: grd-seven;
+    background-color: #2C3043;
+    border: 2px solid black;
+}
+.grd-eight{
+    grid-area: grd-eight;
+    background-color: #FDA061;
+    border: 2px solid black;
+}
+.grd-nine{
+    grid-area: grd-nine;
+    background-color: #34DABA;
+    border: 2px solid black;
+}
+.grd-ten{
+    grid-area: grd-ten;
+    background-color: #FC6057;
+    border: 2px solid black;
+}
+.grd-elevn{
+    grid-area: grd-elevn;
+    background-color: #01A787;
+    border: 2px solid black;
+}
+.grd-twelve{
+    grid-area: grd-twelve;
+    background-color: #2C3043;
+    border: 2px solid black;
+}
+.grd-tharteen{
+    grid-area: grd-tharteen;
+    background-color: #34DABA;
+    border: 2px solid black;
+}
+.grd-fourteen{
+    grid-area: grd-fourteen;
+    background-color: #FDA061;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width:550px) {
+    .grd-container{
+    display: grid;
+    height: 90vh;
+    border: 2px solid black;
+    grid-template-columns: 1fr;
+    grid-template-rows: .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr;
+    grid-template-areas: "grd-one" "grd-two" "grd-three" "grd-four" "grd-five" "grd-six" "grd-seven" "grd-eight" "grd-nine" "grd-ten" "grd-elevn" "grd-twelve" "grd-tharteen" "grd-fourteen";
+    
+}
+}
